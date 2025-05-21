@@ -1,0 +1,426 @@
+body {
+  background: #1e1e1e !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Lexend", sans-serif !important;
+}
+
+h1 {
+  font-size: 38px !important;
+  font-weight: 500;
+  color: #ffff !important;
+}
+
+h2 {
+  font-size: 26px !important;
+  font-weight: 500;
+  color: #ffff !important;
+}
+
+h3 {
+  font-size: 18px !important;
+  font-weight: 500;
+  color: #ffff !important;
+}
+
+h4 {
+  font-size: 14px !important;
+  font-weight: 400;
+  color: #ffff !important;
+}
+
+p {
+  font-size: 16px !important;
+  font-weight: 300;
+  color: #e4e4e7;
+}
+
+span {
+  color: #caff33;
+}
+
+a {
+  color: #ffffff !important;
+}
+
+.btn {
+  background: #caff33 !important;
+  border-radius: 30px !important;
+  padding: 5px 15px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  p {
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  p {
+    font-size: 14px !important;
+  }
+}
+
+/* Nav section  */
+
+.nav-container {
+  background: #26262689;
+  padding: 15px 15px !important;
+  border-radius: 30px !important;
+}
+
+.nav-item {
+  margin-right: 30px;
+  padding: 0px 15px;
+}
+
+.nav-item:hover {
+  background: #262626;
+  border-radius: 30px;
+  border: 1px solid #26262689;
+  color: #caff33 !important;
+}
+
+.nav-link:hover {
+  color: #caff33 !important;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1024px) {
+  .nav-item {
+    margin-right: 0px;
+  }
+
+  .nav-link {
+    font-size: 15px !important;
+  }
+}
+
+/* Nav section ends  */
+
+/* Banner section start */
+
+#banner {
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.img-container img {
+  width: 500px;
+}
+
+#banner .left h4 {
+  margin-bottom: 20px;
+  color: #caff33 !important;
+}
+
+#banner .left h1 {
+  margin-bottom: 20px;
+  line-height: 1.4em;
+}
+
+#banner .left p {
+  margin-bottom: 20px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1024px) {
+  #banner .left h1 {
+    font-size: 30px !important;
+  }
+
+  .img-container img {
+    width: 410px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #banner {
+    margin-top: 50px;
+  }
+
+  #banner .left h1 {
+    font-size: 45px !important;
+    line-height: 1.3em;
+  }
+
+  .img-container {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  #banner {
+    text-align: center;
+  }
+
+  #banner .left h1 {
+    font-size: 28px !important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .img-container img {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  #banner .left h1 {
+    font-size: 24px !important;
+  }
+
+  .img-container img {
+    width: 295px;
+  }
+}
+
+/* Product section */
+
+#Products {
+  margin-top: 80px;
+}
+
+#Products .card {
+  background: none !important;
+  border: none;
+  padding: 15px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#Products img {
+  width: 60px;
+}
+
+/* usecase section */
+
+#usecase {
+  margin-top: 80px;
+ 
+}
+
+#usecase .image-container {
+  text-align: center;
+  border: 1px solid #000;
+  padding-top: 40px;
+  border-radius: 20px;
+  background: #262626;
+  width: 48%;
+  margin-bottom: 15px;
+}
+
+#usecase h4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#usecase .main-container {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 30px 30px;
+  border-radius: 20px;
+}
+
+#usecase .image-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+#usecase .text-container {
+  padding-left: 20px;
+}
+
+#usecase .counter {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#usecase .section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+
+
+#usecase .count-container {
+  text-align: center;
+  color: #caff33 !important;
+}
+
+#usecase .count-container h2 {
+  color: #caff33 !important;
+}
+
+#usecase .cloned-counter {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#usecase .cloned-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#usecase .cloned-counter-wrap {
+  text-align: center;
+  color: #caff33 !important;
+}
+
+#usecase .cloned-counter-wrap h2 {
+  color: #caff33 !important;
+}
+
+#usecase .second-bottom {
+  margin-top: 100px !important;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  #usecase {
+    margin-top: 30px;
+  }
+
+  #usecase .text-container {
+    margin-top: 50px;
+  }
+
+  #usecase .main-container {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  #usecase {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+
+#features {
+  margin-top: 80px;
+}
+
+#features .nav-pills .nav-link.active {
+  background-color: #191919;
+  border-left: 4px solid #b6ff3e;
+  color: #b6ff3e;
+}
+
+#features .nav-link {
+  color: #aaa;
+}
+
+#features .tab-pane .card {
+  background-color: #191919;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  height: 100%;
+}
+
+#features .card .arrow {
+  float: right;
+  color: #b6ff3e;
+  font-size: 1.2rem;
+}
+
+#features .card-text {
+   font-size: 15px !important;
+} 
+
+
+
+
+
+#faq  {
+  margin-top: 80px;
+}
+
+
+#faq .faq-card {
+  background-color: #1b1b1b;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  height: 100%;
+}
+
+
+#faq .faq-card p {
+  color: #ccc;
+  font-size: 15px !important;
+  margin-top: 25px;
+}
+
+#faq .faq-button {
+  background-color: #2e2e2e;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+ 
+}
+
+#faq .faq-button:hover {
+  background-color: #3a3a3a;
+}
+
+#faq .sub-text {
+  color: #ccc;
+ 
+}
+
+
+
+ .footer {
+      background-color: #111;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      color: #c4ff00;
+    }
+    .footer .icon-text i {
+      color: #c4ff00;
+      margin-right: 8px;
+    }
+    .social-icons a {
+      background-color: #c4ff00;
+      color: #111;
+      width: 40px;
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+    .social-icons a:hover {
+      opacity: 0.8;
+    }
+    .footer-bottom {
+      border-top: 1px solid #333;
+      margin-top: 30px;
+      padding-top: 20px;
+      font-size: 14px;
+    }
+
+
